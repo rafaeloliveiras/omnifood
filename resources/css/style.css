@@ -160,7 +160,6 @@ header {
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
-    overflow: hidden;
 }
 
 .hero-text-box {
@@ -311,9 +310,14 @@ header {
 
 .section-cities .city-feature {
     font-size: 18px;
+    margin-top: 2px;
 }
 
 .section-cities .city-feature ion-icon{
     font-size: 24px;
-
+    margin-bottom: 7px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
 }
