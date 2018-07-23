@@ -321,3 +321,12 @@ header {
     vertical-align: middle;
     margin-right: 10px;
 }
+
+.city-feature a{
+    text-decoration: none;
+    
+}
+
+.city-feature a:hover, a:active{
+    color: #555;
+}
