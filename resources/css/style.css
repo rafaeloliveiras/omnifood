@@ -59,7 +59,7 @@ h1 {
     color: #fff;
     font-size: 240%;
     word-spacing: 4px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 h2 {
@@ -67,7 +67,7 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 h3 {
@@ -121,7 +121,7 @@ h2:after {
 .btn-full:visited {
     background-color: #e67e22;
     color: #fff;
-    border: 1px solid #e67e22;
+    border: 2px solid #e67e22;
 }
 
 .btn-full:hover, 
@@ -132,7 +132,7 @@ h2:after {
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #e67e22;
+    border: 2px solid #e67e22;
     color: #e67e22;
 }
 
@@ -324,9 +324,15 @@ header {
 
 .city-feature a{
     text-decoration: none;
+    border-bottom: transparent 2px solid;
+    transition: border-bottom 0.2s;
+}
+
+.city-feature a:visited, a:active{
+    color: #e67e22;
     
 }
 
-.city-feature a:hover, a:active{
-    color: #555;
+.city-feature a:hover {
+    border-bottom: #e67e22 2px solid;
 }
