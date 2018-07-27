@@ -349,3 +349,30 @@ header {
     background-attachment: fixed;
     color: #fff;
 }
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+}
+
+blockquote::before {
+    content: "\201C";
+    font-size: 400%;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+    margin-right: 15px;
+}
+
+cite img {
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+    vertical-align: middle;
+    border: 2px solid;
+    border-color: #e67e22;
+}
