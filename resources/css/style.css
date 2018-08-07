@@ -493,6 +493,7 @@ footer {
 .footer-nav {
     list-style: none;
     float:left;
+    
 }
 
 .social-icons {
@@ -503,4 +504,36 @@ footer {
 .footer-nav li,
 .social-icons li{
     display: inline-block;
+    margin-right: 20px;
 }
+
+.footer-nav li:last-child,
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-icons li a:link,
+.social-icons li a:visited{
+    color: #888;
+    text-decoration: none;
+    border: 0;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.social-icons li a:hover {
+    color: #fff;
+}
+
+
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 90%;
+}
+
+
+
