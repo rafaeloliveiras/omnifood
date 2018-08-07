@@ -528,11 +528,33 @@ footer {
     color: #fff;
 }
 
+.social-icons ion-icon {
+    font-size: 150%;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.social-icons ion-icon[name=logo-facebook]:hover {
+    color: #3b5998;
+}
+
+.social-icons ion-icon[name=logo-twitter]:hover {
+    color: #00aced;
+}
+
+.social-icons ion-icon[name=logo-googleplus]:hover {
+    color: #dd4b39;
+}
+
+.social-icons ion-icon[name=logo-instagram]:hover {
+    color: #517fa4;
+}
 
 footer p {
     color: #fff;
     text-align: center;
     font-size: 90%;
+    margin-top: 50px;
 }
 
 
