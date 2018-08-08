@@ -37,7 +37,7 @@
     .plan-box {
         width: 100%;
         margin-left: 0%;
-        font-size: 95%;
+        font-size: 88%;
     }
 
     .contact-form { width: 80%; }
@@ -58,7 +58,12 @@
         font-size: 16px;
     }
 
-    .col { width: 100%; }
+    .hero-text-box { margin-top: 10%; }
+
+    .col { 
+        width: 50%; 
+        margin: 0 0 50% 0%;
+    }
 
     .main-nav { display: none;}
 
@@ -82,6 +87,12 @@
         font-size: 120%;
     }
     
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 88%;
+    }
+    
     
 }
 
@@ -96,8 +107,19 @@
     .app-screen { width: 40%; }
     .step-box:first-child { text-align: center; }
 
+    .hero-text-box { padding-top: 20%; }
 
-    .footer-nav { font-size: 80%; }
+
+    .footer-nav { font-size: 75%; display: inline-flex; }
     .social-icons { font-size: 80%; margin-right: 30%; margin-top: 20px; }
     footer p { font-size: 80%; }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 88%;
+        margin-bottom: 5%;
+    }
+
+
 }
