@@ -110,7 +110,7 @@
     .hero-text-box { padding-top: 20%; }
 
 
-    .footer-nav { font-size: 75%; display: inline-flex; }
+    .footer-nav { font-size: 75%; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
     .social-icons { font-size: 80%; margin-right: 30%; margin-top: 20px; }
     footer p { font-size: 80%; }
 
