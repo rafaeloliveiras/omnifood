@@ -1,20 +1,3 @@
-/* Small phones: from 0 to 480px*/
-@media only screen and (max-width: 480px) {
-
-}
-
-/* Small phones to small tablets: from 481px to 767px*/
-@media only screen and (max-width: 767px) {
-
-}
-
-/* Small tablets to big tablets: from 768 to 1023px*/
-@media only screen and (max-width: 1023px) {
-    body { font-size: 18px; }
-    section { padding: 50px 0; }
-    .section-howitworks { margin-left: -100px; }
-}
-
 /* Big tablets and small computers: from 1024 to 1200px*/
 @media only screen and (max-width: 1200px) {
     .hero-text-box {
@@ -25,4 +8,96 @@
     .row {
         padding: 0 2%;
     }
+}
+
+
+/* Small tablets to big tablets: from 768 to 1023px*/
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 50px 0; }
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .step-box { margin-top: 10px; }
+    .step-box:last-child { margin-top: 50px; }
+    .section-howitworks { margin-bottom: 40px; }
+    .section-howitworks:last-of-type { margin-bottom: 60px; }
+    
+    .app-screen { width: 50%; }
+    
+    .section-cities .city-feature ion-icon { 
+        font-size: 100%; 
+        margin-right: 5px; 
+    }
+
+    .section-cities .city-feature { font-size: 90%; }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 95%;
+    }
+
+    .contact-form { width: 80%; }
+}
+
+
+/* Small phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width: 767px) {
+
+    body { font-size: 15px; }
+    section { padding: 30px 0; }
+    h1 { font-size: 150%; }
+    h2 { font-size: 135%; }
+
+    .row,
+    .hero-text-box { 
+        padding: 0 4%;
+        font-size: 16px;
+    }
+
+    .col { width: 100%; }
+
+    .main-nav { display: none;}
+
+    .section-howitworks { margin-bottom: 20px; }
+    .section-howitworks:last-of-type { margin-bottom: 20px; }
+
+    .app-screen { width: 70%; }
+
+    .works-step div {
+        color: #e67e22;
+        border: 2px solid #e67e22;
+        display: inline-block;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        font-size: 150%;
+        padding: 5px;
+        float: left;
+        margin-right: 20px;
+        font-size: 120%;
+    }
+    
+    
+}
+
+
+/* Small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    
+    body {font-size: 10px;}
+    h2 { font-size: 120%; }
+    h2:after { width: 100px; }
+
+    .app-screen { width: 40%; }
+    .step-box:first-child { text-align: center; }
+
+
+    .footer-nav { font-size: 80%; }
+    .social-icons { font-size: 80%; margin-right: 30%; margin-top: 20px; }
+    footer p { font-size: 80%; }
 }
