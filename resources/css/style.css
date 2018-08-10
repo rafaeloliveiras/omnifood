@@ -225,6 +225,8 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+
+
 /* ------------- STICKY --------------- */
 
 .sticky {
@@ -240,9 +242,9 @@ header {
 .sticky .logo { display: none; }
 .sticky .black-logo { display: block; }
 
-.main-nav { 
-    margin-top: 30px; 
-    padding-bottom: 20px 0; 
+.sticky .main-nav { 
+    margin-top: 25px; 
+    
 }
 
 .sticky .main-nav li a:link,
@@ -607,4 +609,43 @@ footer p {
     text-align: center;
     font-size: 90%;
     margin-top: 50px;
+}
+
+
+
+/* -------------------------------------- */
+/*   Animations   */
+/* -------------------------------------- */
+
+.js-animation {
+    opacity: 0;
+}
+
+.js-animation.animated {
+    opacity: 1;
+}
+
+
+.js-animation2 {
+    opacity: 0;
+}
+
+.js-animation2.animated {
+    opacity: 1;
+}
+
+.js-animation4 {
+    opacity: 0;
+}
+
+.js-animation4.animated {
+    opacity: 1;
+}
+
+.js-animation5 {
+    opacity: 0;
+}
+
+.js-animation5.animated {
+    opacity: 1;
 }
